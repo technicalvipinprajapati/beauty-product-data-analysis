@@ -1,106 +1,49 @@
-\# Beauty Product Review Analysis and Customer Satisfaction Insights
-
-
-
-\## Project Overview
-
-This project analyzes beauty product data to understand product ratings, brand popularity, pricing, and missing values. It uses Python and data analysis libraries to generate useful insights and visualizations.
-
-
-
-\## Dataset
-
-The dataset contains beauty product information from Sephora.
-
-
-
-\- Total products: 8,494
-
-\- Unique brands: 304
-
-\- Average product rating: 4.19 out of 5
-
-\- Average product price: $51.66 USD
-
-\- Total missing values: 44,370
-
-
-
-\## Technologies Used
-
-\- Python
-
-\- Pandas
-
-\- Matplotlib
-
-
-
-\## Analysis Performed
-
-1\. Loaded and explored the product dataset.
-
-2\. Identified missing values in product information.
-
-3\. Extracted the 10 highest-rated products.
-
-4\. Identified the 10 most-loved brands.
-
-5\. Created bar chart visualizations.
-
-
-
-\## Key Findings
-
-\- Sephora Collection has the highest total loves count in this dataset, at 12,530,142.
-
-\- Rare Beauty by Selena Gomez has the highest average rating among the 10 most-loved brands, at approximately 4.31.
-
-\- The average product rating across the dataset is 4.19 out of 5.
-
-\- Missing values require careful handling before deeper analysis.
-
-
-
-\## Project Files
-
-\- `beauty\_analysis.py` — Python analysis script
-
-\- `product\_info.csv` — Product dataset
-
-\- `top\_10\_beauty\_brands.png` — Most-loved brands chart
-
-\- `top\_10\_rated\_products.png` — Highest-rated products chart
-
-
-
-\## How to Run
-
-1\. Install the required libraries:
-
-
-
-&#x20;  `pip install pandas matplotlib`
-
-
-
-2\. Place `product\_info.csv` in the project folder.
-
-3\. Run:
-
-
-
-&#x20;  `python beauty\_analysis.py`
-
-
-
-\## Limitations
-
-A 5.0 rating does not necessarily mean a product is better than all others, because some products have very few reviews. The findings describe only the dataset analyzed and do not establish overall customer satisfaction for every beauty product.
-
-
-
-\## Author
-
+ # Beauty Product Review Analysis and Customer Satisfaction Insights
+
+## Project Overview
+This project analyzes beauty products and customer reviews using Python. It explores product ratings, customer recommendations, popular brands, and customer satisfaction.
+
+## Dataset
+The dataset contains Sephora beauty product information and customer reviews.
+
+Source: [Sephora Products and Skincare Reviews — Kaggle](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews)
+
+The dataset CSV files are not included in this repository because of their size.
+
+## Key Findings
+- Total products analyzed: 8,494
+- Total customer reviews analyzed: 1,094,411
+- Average product rating: approximately 4.19/5
+- Average customer review rating: approximately 4.3/5
+- Customer recommendation rate: approximately 84%
+- Product brands analyzed: 304
+
+## Tools and Technologies
+- Python
+- Pandas
+- Matplotlib
+
+## Project Files
+- `beauty_analysis.py` — Product and brand analysis
+- `review_analysis.py` — Customer review analysis
+- `top_10_beauty_brands.png` — Top beauty brands chart
+- `top_10_rated_products.png` — Top-rated products chart
+- `customer_review_insights.png` — Customer review insights chart
+
+## How to Run
+1. Install Python.
+2. Install the required libraries: `pip install pandas matplotlib`
+3. Download the dataset CSV files from Kaggle.
+4. Place the CSV files in the project folder.
+5. Run `python beauty_analysis.py`
+6. Run `python review_analysis.py`
+
+## Limitations
+- The analysis uses the available dataset and may not represent every beauty customer.
+- Products with very few reviews may appear among the highest-rated products.
+- Customer ratings and reviews can change over time.
+
+## Author
 Vipin Kumar
 
+GitHub: [technicalvipinprajapati](https://github.com/technicalvipinprajapati)
